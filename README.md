@@ -7,6 +7,9 @@
 
 > Production-ready subdomain enumeration for security researchers. Fast, intelligent, and respectful of rate limits.
 
+![DNX Logo](assets/logo.png)
+
+
 ## Why DNX?
 
 Stop cobbling together multiple tools. DNX combines passive reconnaissance with active brute-forcing in one clean package. Written in Perl for speed and portability.
