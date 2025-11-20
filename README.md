@@ -444,19 +444,6 @@ git clone https://github.com/danielmiessler/SecLists.git
 
 ## Smart Features
 
-### Progress Tracking
-
-Real-time feedback for long scans:
-```
-[*] Passive Enumeration
-    Querying APIs: 7/10 (70%)
-    Found: 23 subdomains
-
-[*] Active Brute-Force
-    Progress: [████████░░░░░░░░] 45% (4500/10000)
-    Found: 157 subdomains
-```
-
 ### Graceful Exit
 
 Press `Ctrl+C` anytime:
@@ -532,76 +519,6 @@ cat ${DOMAIN}_http.txt | nuclei -silent -o ${DOMAIN}_vulns.txt
 
 echo "Complete! Results in ${DOMAIN}_*.txt"
 ```
-
-## Comparison with Other Tools
-
-### Feature Matrix
-
-| Feature | DNX | Amass | Subfinder | Sublist3r | Findomain |
-|---------|-----|-------|-----------|-----------|-----------|
-| **Language** | Perl | Go | Go | Python | Rust |
-| **Installation** | Single file | Binary | Binary | pip install | Binary |
-| **Passive Sources** | 10 | 100+ | 50+ | 8 | 30+ |
-| **Active Brute-Force** | Yes | Yes | No | No | No |
-| **Wildcard Detection** | Yes | Yes | Yes | No | Yes |
-| **Zone Transfer (AXFR)** | Yes | Yes | No | No | No |
-| **Recursive Discovery** | Yes | Yes | No | No | No |
-| **Subdomain Takeover** | Yes | Yes | No | No | Yes |
-| **HTTP Probing** | Yes | No | No | No | Yes |
-| **Multi-Record Types** | A/AAAA/MX/NS/TXT/SOA | Yes | A only | A only | A only |
-| **Caching** | 24 hours | Yes | Yes | No | No |
-| **Output Formats** | 3 (text/json/csv) | 5+ | 3 | 1 (text) | 4 |
-| **Progress Bars** | Yes | Yes | Yes | No | Yes |
-| **Rate Limiting** | Configurable | Yes | Yes | No | Yes |
-| **Config File** | Yes | Yes | Yes | No | Yes |
-| **Memory Usage** | ~20MB | ~100-500MB | ~50MB | ~30MB | ~30MB |
-| **Speed (1K wordlist)** | ~30-60s | ~2-5min | N/A | N/A | N/A |
-
-### Performance Benchmarks
-
-**Test Setup:** Target with 10K wordlist, 50 threads, 100Mbps network
-
-| Tool | Passive Only | With Brute-Force | Memory | CPU |
-|------|-------------|------------------|---------|-----|
-| **DNX** | 8s | 4m 30s | 18MB | Low |
-| **Amass** | 45s | 12m | 350MB | High |
-| **Subfinder** | 5s | N/A | 45MB | Low |
-| **Sublist3r** | 60s | N/A | 28MB | Low |
-| **Findomain** | 3s | N/A | 25MB | Low |
-
-### Use Case Recommendations
-
-**Choose DNX When:**
-- You need both passive and active enumeration
-- You want subdomain takeover checks included
-- You need to probe HTTP services
-- You want multiple DNS record types
-- You're running on a system with Perl
-- You need a balance of features without complexity
-- You want something easy to customize
-
-**Choose Amass When:**
-- You're doing enterprise-level recon
-- You need the most comprehensive results
-- You have time and resources
-- You want ASN enumeration
-- Maximum coverage is critical
-
-**Choose Subfinder When:**
-- You only need passive enumeration
-- Speed is your top priority
-- You're doing quick initial recon
-- You're integrating with other tools
-
-**Choose Sublist3r When:**
-- You're learning subdomain enumeration
-- You need something simple and stable
-- You don't need advanced features
-
-**Choose Findomain When:**
-- You want the fastest passive tool
-- You need continuous monitoring
-- You value memory efficiency
 
 ### Tool Chaining
 
