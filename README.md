@@ -7,7 +7,7 @@
 
 > Production-ready subdomain enumeration for security researchers. Fast, intelligent, and respectful of rate limits.
 
-![DNX Logo](assets/logo.png)
+![DNX Logo](logo.png)
 
 
 ## Why DNX?
